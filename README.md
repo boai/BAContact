@@ -9,6 +9,7 @@
 ## 1、功能及简介
 * 1、通讯录，最简单的中英文混合排序封装，微信通讯录 demo！<br>
 * 2、获取系统通讯录内容，然后添加到自定义通讯录<br>
+* 3、UISearchController 的详细使用方法 <br>
 
 ## 2、图片示例
 ![BAContact1.png](https://github.com/BAHome/BAContact/blob/master/Images/BAContact1.png)
@@ -60,6 +61,7 @@
  更新内容： <br>
  1.0.0.1、通讯录，最简单的中英文混合排序封装，微信通讯录 demo！ <br>
  1.0.0.2、获取系统通讯录内容，然后添加到自定义通讯录 <br>
+ 1.0.0.3、UISearchController 的详细使用方法 <br>
  */
 
 #endif /* BAContact_h */
@@ -135,6 +137,7 @@
  更新内容： <br>
  1.0.0.1、通讯录，最简单的中英文混合排序封装，微信通讯录 demo！ <br>
  1.0.0.2、获取系统通讯录内容，然后添加到自定义通讯录 <br>
+ 1.0.0.3、UISearchController 的详细使用方法 <br>
 
 ## 6、bug 反馈
 > 1、开发中遇到 bug，希望小伙伴儿们能够及时反馈与我们 BAHome 团队，我们必定会认真对待每一个问题！ <br>
