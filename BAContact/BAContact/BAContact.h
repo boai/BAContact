@@ -78,9 +78,9 @@
 
 // 系统自带的中英文混合排序
 #import "BAKit_LocalizedIndexedCollation.h"
-#import "UIImage+BAContact.h"
 
 #import "BAKit_ConfigurationDefine.h"
+#import "UIImage+BAContact.h"
 
 /*!
  *********************************************************************************

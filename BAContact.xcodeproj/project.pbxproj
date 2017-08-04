@@ -14,6 +14,7 @@
 		C42E88601F32FDAC00C0F084 /* BAContactsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C42E885E1F32FDAC00C0F084 /* BAContactsModel.m */; };
 		C42E88641F32FF5000C0F084 /* UIImage+BAContact.m in Sources */ = {isa = PBXBuildFile; fileRef = C42E88631F32FF5000C0F084 /* UIImage+BAContact.m */; };
 		C42E886F1F33026100C0F084 /* BAKit_LocalizedIndexedCollation.m in Sources */ = {isa = PBXBuildFile; fileRef = C42E885B1F32FCFA00C0F084 /* BAKit_LocalizedIndexedCollation.m */; };
+		C46F75FD1F346BC500163E11 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C46F75FC1F346BC500163E11 /* Launch Screen.storyboard */; };
 		C4E511D91F3322A500C0635C /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C42E88FE1F33059E00C0F084 /* 0.jpg */; };
 		C4E511DA1F3322A500C0635C /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C42E88FF1F33059E00C0F084 /* 1.jpg */; };
 		C4E511DB1F3322A500C0635C /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C42E89001F33059E00C0F084 /* 10.jpg */; };
@@ -67,7 +68,6 @@
 		C4E5120B1F3322F200C0635C /* pic7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C42E88DD1F33052E00C0F084 /* pic7.jpg */; };
 		C4E5120C1F3322F200C0635C /* pic8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C42E88DE1F33052E00C0F084 /* pic8.jpg */; };
 		C4E5120D1F3322F200C0635C /* picon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C42E88DF1F33052E00C0F084 /* picon.jpg */; };
-		C4E5120F1F33268800C0635C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E5120E1F33268800C0635C /* Launch Screen.storyboard */; };
 		C4E512101F33FD2800C0635C /* NSMutableAttributedString+BAKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C42E88691F3300DF00C0F084 /* NSMutableAttributedString+BAKit.m */; };
 		C4E512111F33FD2C00C0635C /* NSObject+BARunTime.m in Sources */ = {isa = PBXBuildFile; fileRef = C42E886B1F3300DF00C0F084 /* NSObject+BARunTime.m */; };
 		C4E512121F33FD3000C0635C /* UIAlertController+BAKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C42E886D1F3300DF00C0F084 /* UIAlertController+BAKit.m */; };
@@ -152,7 +152,7 @@
 		C42E89131F33059E00C0F084 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
 		C42E89141F33059E00C0F084 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
 		C42E89151F33059E00C0F084 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
-		C4E5120E1F33268800C0635C /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		C46F75FC1F346BC500163E11 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		C4E512131F34132100C0635C /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
 		C4E512141F34132100C0635C /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -201,7 +201,7 @@
 				C42E88491F32FC1800C0F084 /* Assets.xcassets */,
 				C42E884E1F32FC1800C0F084 /* Info.plist */,
 				C42E884F1F32FC1800C0F084 /* main.m */,
-				C4E5120E1F33268800C0635C /* Launch Screen.storyboard */,
+				C46F75FC1F346BC500163E11 /* Launch Screen.storyboard */,
 			);
 			path = BAContact;
 			sourceTree = "<group>";
@@ -467,7 +467,7 @@
 				C4E511DA1F3322A500C0635C /* 1.jpg in Resources */,
 				C4E511FA1F3322E600C0635C /* contacts_add_friend@2x.png in Resources */,
 				C4E511E91F3322A500C0635C /* 23.jpg in Resources */,
-				C4E5120F1F33268800C0635C /* Launch Screen.storyboard in Resources */,
+				C46F75FD1F346BC500163E11 /* Launch Screen.storyboard in Resources */,
 				C4E511FD1F3322EB00C0635C /* plugins_FriendNotify@3x.png in Resources */,
 				C4E511F01F3322A500C0635C /* 9.jpg in Resources */,
 				C4E5120B1F3322F200C0635C /* pic7.jpg in Resources */,
